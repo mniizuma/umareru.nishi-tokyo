@@ -1,0 +1,121 @@
+body{
+	background-color:lavender;
+	color:dimgray;
+}
+
+a:link { color: #0000ff; }
+a:visited { color: #000080; }
+a:hover { color: #ff0000; }
+a:active { color: #ff8000; }
+
+div#menubox{
+	width: 1000px;
+	height: 50px;
+	text-align: center;
+	padding-left: 5px;
+
+
+}
+
+div#container{
+	display: block;
+	width: 1050px;
+	height: 100%;
+	min-height: 1710px;
+	margin: 0 auto;
+	padding-top: 10px;
+	border-left: 3px solid paleturquoise;
+	border-right: 3px solid paleturquoise;
+	border-radius: 8px;
+	background-color:white;
+	text-align:center;
+	}
+
+h1{
+	color: lightslategray;
+	font-size: 16px;
+}
+
+div#leftcontent{
+	width: 740px;
+	padding: 20px;
+	float: left;
+	min-height:700px;
+}
+
+div#leftcontent div.content{
+	width: 690px;
+	margin-bottom: 20px ;
+	margin-left: 10px ;
+	margin-right: 10px ;
+	padding :10px;
+	border:double 5px gray;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: left;
+	line-height:26px;
+}
+
+div#leftcontent div.content header{
+	margin-bottom: 20px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	border-bottom: dashed 1px gray;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: left;
+
+}
+
+div.rightcontent{
+	border: 1px dashed gray;
+	margin-top: 20px;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding: 5px;
+	width: 245px;
+	position : static;
+	text-align: left;
+	float: left;
+}
+
+div.rightcontent header{
+	margin-bottom: 20px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	border-bottom: dashed 1px gray;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	background-color:lightgray;
+}
+
+div#leftcontent div.content div.tyuuyaku{
+	font-size: 14px;
+	text-align: right;
+	font-weight: normal;
+	margin-top:10px;
+}
+
+h2{
+	font-size: 32px;
+	font-weight: bold;
+}
+
+.text{
+	padding: 30px;
+	font-size: 18px;
+	text-align: left;
+	font-weight: normal;
+	border: dashed 1px gray;
+}
+
+.clearFloat{
+	clear: both;
+}
+
+div#footer{
+	font-size: 16px;
+	color :gray;
+	text-align: center;
+}
