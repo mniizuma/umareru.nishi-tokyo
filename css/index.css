@@ -21,7 +21,7 @@ div#container{
 	display: block;
 	width: 1050px;
 	height: 100%;
-	min-height: 1710px;
+	min-height: 2010px;
 	margin: 0 auto;
 	padding-top: 10px;
 	border-left: 3px solid paleturquoise;
@@ -40,7 +40,7 @@ div#leftcontent{
 	width: 740px;
 	padding: 20px;
 	float: left;
-	min-height:700px;
+	min-height:800px;
 }
 
 div#leftcontent div.content{
@@ -64,8 +64,34 @@ div#leftcontent div.content header{
 	font-size: 24px;
 	font-weight: bold;
 	text-align: left;
+}
+
+div#leftcontent div.content div.left{
+	min-width: 100px;
+	min-height: 300px;
+	float: left;
+	padding :5px;
 
 }
+div#leftcontent div.content div.left2{
+	min-width: 100px;
+	min-height: 450px;
+	float: left;
+	padding :5px;
+
+}
+
+div#leftcontent div.content div.right{
+	font-weight: normal;
+	font-size : 16px;
+	padding :5px;
+}
+div#leftcontent div.content div.right name{
+	font-weight: bold;
+	font-size : 20px;
+
+}
+
 
 div.rightcontent{
 	border: 1px dashed gray;
@@ -89,6 +115,7 @@ div.rightcontent header{
 	text-align: center;
 	background-color:lightgray;
 }
+
 
 div#leftcontent div.content div.tyuuyaku{
 	font-size: 14px;
